@@ -1,0 +1,24 @@
+typo3:
+        typo3_baseurl: https://www.typo3.example.com
+        typo3_faid: 11030200
+        downloads:
+                - name: "Course"
+                  dir:  "~/documents/University/SemesterN/Course/Exercise"
+                  id: 111111
+                  download_option: "-v script"
+
+wuecampus:
+        loginurl: https://wuecampus2.uni-wuerzburg.de/moodle/login/index.php
+        logouturl: https://wuecampus2.uni-wuerzburg.de/moodle/login/logout.php
+        loginid: login
+        userid: username
+        pwid: password
+        cookie: "/tmp/cookie.txt"
+        username: <username>
+        pw: <password>
+        downloads:
+                - name: "Course"
+                  dir: "~/documents/University/SemesterN/Course/Exercise"
+                  id: 111111
+                  section: 2
+            

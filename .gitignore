@@ -1,0 +1,11 @@
+*
+!.gitignore
+!Makefile
+!README.md
+!example-config.yml
+
+!src
+src/*
+!src/*.sh
+!src/Makefile
+src/wuedownload.sh
